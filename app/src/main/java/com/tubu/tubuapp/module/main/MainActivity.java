@@ -64,6 +64,8 @@ public class MainActivity extends BaseTabActivity<Toolbar> {
         return fragments[position];
     }
 
+    //test test
+
     @Override
     protected void onFragmentSelected(int position) {
         Timber.i(TAG, toString() + "onFragmentSelected. position:" + position);
